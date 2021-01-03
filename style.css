@@ -1,0 +1,35 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    
+    border-radius: 12px;
+    background-color: rgb(154, 94, 252);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+}
+
+body{
+    background-color: whitesmoke;
+    border: 8px solid #000000;
+    border-style:ridge;
+    padding: 15px;
+}
+a:link{
+    color:white;
+
+}
+a:visited{
+    color:blue;
+}
+
+.menu:hover{
+    transform:scale(1.2);
+}
+
+
+
